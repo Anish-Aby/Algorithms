@@ -23,7 +23,7 @@ Feel free to fork them or reach out to me if you have any questions!✍🏼
 | Problems  | Packages  |
 |-|-|
 |1. Contiguous Subarray | contiguousSubArray |
-|2.Smallest sub array | smallestSubArray |
+|2. Smallest sub array | smallestSubArray |
 |   |   |
 
 
