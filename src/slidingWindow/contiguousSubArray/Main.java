@@ -1,4 +1,4 @@
-package patternSlidingWindow;
+package slidingWindow.contiguousSubArray;
 
 /*Given an array, find the average of all contiguous subarrays of size ‘K’ in it.
 * Array: [1, 3, 2, 6, -1, 4, 1, 8, 2], K=5
@@ -6,7 +6,7 @@ package patternSlidingWindow;
 
 import java.util.Scanner;
 
-public class ContiguousSubArray {
+public class Main {
     public static void main(String[] args) {
         int k, windowSum = 0, windowEnd, windowStart = 0;
         int[] arr = {1, 3, 2, 6, -1, 4, 1, 8, 2};
