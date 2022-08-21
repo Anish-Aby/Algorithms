@@ -15,6 +15,8 @@ Feel free to fork them or reach out to me if you have any questions!✍🏼
     * Sliding window
     * Two pointers
 
+---
+
 #### Here is a list of Algorithms and the package names that are there in this repo:
 1. Sliding window: 
 
