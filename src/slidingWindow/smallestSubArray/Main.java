@@ -1,15 +1,14 @@
 package slidingWindow.smallestSubArray;
 
 /*Given an array of positive numbers and a positive number ‘S’,
-* Find the length of the smallest contiguous subarray whose sum
-* is grater than or equal to S. Return 0, if no such subarray exists.
+* Find the length of the smallest contiguous sub-array whose sum
+* is grater than or equal to S. Return 0, if no such sub-array exists.
 *
 * Example 1:
 
 Input: [2, 1, 5, 2, 3, 2], S=7
 Output: 2
-Explanation: The smallest subarray with a sum greater than or equal to '7' is [5, 2].
-*
+Explanation: The smallest sub-array with a sum greater than or equal to '7' is [5, 2].
 * */
 
 import java.util.Scanner;

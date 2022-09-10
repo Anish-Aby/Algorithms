@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="de008ec2-7ff6-4f71-a77f-65df2f34281b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/slidingWindow/smallestSubArray/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/slidingWindow/smallestSubArray/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,25 +24,27 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2DcvsozzsrpkPM2VmTF5cuW4oc1" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "E:/Programming/Java Programs/Algorithms"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Programming/Java Programs/Algorithms&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.slidingWindow.maxSumSubarray.Main">
-    <configuration name="ContiguousSubArray_BruteForce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingWindow.contiguousSubArray.ContiguousSubArray_BruteForce" />
+}</component>
+  <component name="RunManager" selected="Application.Practice">
+    <configuration name="MaxSumSubarray_BruteForce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="slidingWindow.maxSumSubarray.MaxSumSubarray_BruteForce" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="slidingWindow.contiguousSubArray.*" />
+          <option name="PATTERN" value="slidingWindow.maxSumSubarray.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -49,8 +52,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingWindow.smallestSubArray.Main" />
+    <configuration name="Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="slidingWindow.smallestSubArray.Practice" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
@@ -62,12 +65,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxSumSubarray_BruteForce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingWindow.maxSumSubarray.MaxSumSubarray_BruteForce" />
+    <configuration name="SmallestSubArray_BruteForce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="slidingWindow.smallestSubArray.SmallestSubArray_BruteForce" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="slidingWindow.maxSumSubarray.*" />
+          <option name="PATTERN" value="slidingWindow.smallestSubArray.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,11 +106,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Practice" />
+        <item itemvalue="Application.SmallestSubArray_BruteForce" />
         <item itemvalue="Application.slidingWindow.maxSumSubarray.Main" />
         <item itemvalue="Application.MaxSumSubarray_BruteForce" />
         <item itemvalue="Application.practice.Main" />
-        <item itemvalue="Application.ContiguousSubArray_BruteForce" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
