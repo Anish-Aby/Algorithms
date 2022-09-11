@@ -18,7 +18,7 @@ Feel free to clone or reach out to me if you have any questions!✍🏼
 ---
 
 #### Here is a list of Algorithms and the package names that are there in this repo📓:
-A. Sliding window🪟:
+##### A. Sliding window ➡️:
 
 | Problems ❓                | Packages 🏮  |
 |---------------------------|:---:|
@@ -27,7 +27,7 @@ A. Sliding window🪟:
 | 3. Smallest sum Sub-array | smallestSubarray  |
 
 ---
-## A. Sliding window 🪟:
+## A. Sliding window ➡️:
 
 ### ⚪ 1. Contiguous Subarray:
 In many problems dealing with an array (or a LinkedList), we are asked to find or calculate something among all the contiguous subarrays (or sublists) of a given size. For example, take a look at this problem:
@@ -177,7 +177,7 @@ Java HashMap class implements the Map interface which allows us to store key and
 Syntax:
 
 ```java
-Hashmap<Integer, Integer> myMap = new Hashmap<>();
+HashMap<Integer, Integer> myMap = new HashMap<>();
 ```
 
 ##### code snippet:
