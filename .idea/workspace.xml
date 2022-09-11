@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de008ec2-7ff6-4f71-a77f-65df2f34281b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +37,7 @@
     &quot;last_opened_file_path&quot;: &quot;E:/Java programs/Algorithms&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.slidingWindow.noRepeatSubString.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="slidingWindow.fruitsIntoBasket.Main" />
       <module name="Algorithms" />
@@ -53,19 +53,6 @@
     </configuration>
     <configuration name="Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="slidingWindow.smallestSubArray.Practice" />
-      <module name="Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="slidingWindow.smallestSubArray.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SmallestSubArray_BruteForce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingWindow.smallestSubArray.SmallestSubArray_BruteForce" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
@@ -103,13 +90,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="slidingWindow.noRepeatSubString.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="slidingWindow.noRepeatSubString.Main" />
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="slidingWindow.noRepeatSubString.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.slidingWindow.noRepeatSubString.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.slidingWindow.longestSubstringMaxDistinct.Main" />
         <item itemvalue="Application.slidingWindow.longestSubstringMaxDistinct.Practice" />
         <item itemvalue="Application.Practice" />
-        <item itemvalue="Application.SmallestSubArray_BruteForce" />
       </list>
     </recent_temporary>
   </component>
@@ -134,5 +134,15 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
