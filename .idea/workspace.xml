@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de008ec2-7ff6-4f71-a77f-65df2f34281b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/slidingWindow/longestSubstringMaxDistinct/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/slidingWindow/longestSubstringMaxDistinct/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,27 +33,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Programming/Java Programs/Algorithms&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "E:/Java programs/Algorithms"
   }
-}</component>
-  <component name="RunManager" selected="Application.Practice">
-    <configuration name="MaxSumSubarray_BruteForce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingWindow.maxSumSubarray.MaxSumSubarray_BruteForce" />
-      <module name="Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="slidingWindow.maxSumSubarray.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}]]></component>
+  <component name="RunManager" selected="Application.slidingWindow.longestSubstringMaxDistinct.Main">
     <configuration name="Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="slidingWindow.smallestSubArray.Practice" />
       <module name="Algorithms" />
@@ -77,12 +67,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="practice.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.Main" />
+    <configuration name="slidingWindow.longestSubstringMaxDistinct.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="slidingWindow.longestSubstringMaxDistinct.Main" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="slidingWindow.contiguousSubArray.*" />
+          <option name="PATTERN" value="slidingWindow.longestSubstringMaxDistinct.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="slidingWindow.longestSubstringMaxDistinct.Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="slidingWindow.longestSubstringMaxDistinct.Practice" />
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="slidingWindow.longestSubstringMaxDistinct.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.slidingWindow.longestSubstringMaxDistinct.Main" />
+        <item itemvalue="Application.slidingWindow.longestSubstringMaxDistinct.Practice" />
         <item itemvalue="Application.Practice" />
         <item itemvalue="Application.SmallestSubArray_BruteForce" />
         <item itemvalue="Application.slidingWindow.maxSumSubarray.Main" />
-        <item itemvalue="Application.MaxSumSubarray_BruteForce" />
-        <item itemvalue="Application.practice.Main" />
       </list>
     </recent_temporary>
   </component>
