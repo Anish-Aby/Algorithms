@@ -177,7 +177,7 @@ Java HashMap class implements the Map interface which allows us to store key and
 Syntax:
 
 ```java
-HashMap <Integer, Integer> myMap = new HashMap<>();
+HashMap<Integer, Integer> myMap = new HashMap<>();
 ```
 
 ##### code snippet:
@@ -218,6 +218,33 @@ Explanation: We can put 3 'B' in one basket and two 'C' in the other basket.
 This can be done if we start with the second letter: ['B', 'C', 'B', 'B', 'C']
 
 This question is pretty much similar to the longest sub-array. You can look into the code for further explanation.
+
+<img src = "https://miro.medium.com/max/700/0*AFnoy0Jqh6KBCDTS.png" width = "300" height = "110" />
+
+<img src = "https://miro.medium.com/max/637/0*iyXlKa3k5G9G7Pgr.png" width = "300" height = "110"/>
+
+<img src = "https://miro.medium.com/max/667/0*NRk7dfZjRtjvUykm.png" width = "300" height = "110"/>
+
+<img src = "https://miro.medium.com/max/667/0*Ql2VkE2MdPekXZGv.png" width = "300" height = "110"/>
+
+<img src = "https://miro.medium.com/max/667/0*dQiDxBxe3cm6aDri.png" width = "300" height = "110"/>
+
+<img src = "https://miro.medium.com/max/700/0*n1XDxzbfi7dDryBa.png" width = "300" height = "110"/>
+
+<img src = "https://miro.medium.com/max/700/0*dWfvnBMqKLyYHC4w.png" width = "300" height = "110"/>
+
+<img src = "https://miro.medium.com/max/700/0*Wj0G4JvgXtWz-lxo.png" width = "300" height = "110"/>
+
+<img src = "https://miro.medium.com/max/667/0*QxFRzSxBxIyGcNQC.png" width = "300" height = "110"/>
+
+<img src = "https://miro.medium.com/max/667/0*I17WM_ACZVPJjOwG.png" width = "300" height = "110"/>
+
+<img src = "https://miro.medium.com/max/667/0*5Kp1idMBzy9TQF9u.png" width = "300" height = "110"/>
+
+<img src = "https://miro.medium.com/max/667/0*gCo3C5RB27waNwn7.png" width = "300" height = "110"/>
+
+<img src = "https://miro.medium.com/max/700/0*bdpHLO3mecwFhAWX.png" width = "300" height = "110"/>
+
 
 ###### Note: Please check the package for the code.
 ---
