@@ -60,17 +60,17 @@ Here's a visual representation:
 ---
 ### ⚪ 2. Maximum sum Sub-array:
 
-Problem Statement:
+❓ Problem Statement:
 > Given an array of positive numbers and a positive number ‘k’, find the maximum sum of any contiguous subarray of size ‘k’.
 
 Here are a few examples:
 
-Example 1:
+🗃️ Example 1:
 >Input: [2, 1, 5, 1, 3, 2], k=3
 Output: 9
 Explanation: Subarray with maximum sum is [5, 1, 3].
 
-Example 2:
+🗃️ Example 2:
 >Input: [2, 3, 4, 1, 5], k=2
 Output: 7
 Explanation: Subarray with maximum sum is [3, 4].
@@ -102,7 +102,7 @@ The time complexity is reduced to O(N).
 ---
 ### ⚪ 3. Smallest Sum Sub-array:
 
-Problem Statement:
+❓ Problem Statement:
 >Given an array of positive numbers and a positive number ‘S’,
 > find the length of the smallest contiguous sub-array
 > whose sum is greater than or equal to ‘S’.
@@ -150,20 +150,20 @@ while (sum >= s){
 ---
 ### ⚪ 4. Longest Substring with K Distinct Characters:
 
-Problem Statement:
+❓ Problem Statement:
 >Given a string, find the length of the longest substring in it with no more than K distinct characters.
 
-Example 1:
+🗃️ Example 1:
 >Input: String="araaci", K=2
 Output: 4
 Explanation: The longest substring with no more than '2' distinct characters is "araa".
 
-Example 2:
+🗃️ Example 2:
 >Input: String="araaci", K=1
 Output: 2
 Explanation: The longest substring with no more than '1' distinct characters is "aa".
 
-Example 3:
+🗃️ Example 3:
 >Input: String="cbbebi", K=3
 Output: 5
 Explanation: The longest substrings with no more than '3' distinct characters are "cbbeb" & "bbebi".
@@ -177,7 +177,7 @@ Java HashMap class implements the Map interface which allows us to store key and
 Syntax:
 
 ```java
-HashMap<Integer, Integer> myMap = new HashMap<>();
+HashMap <Integer, Integer> myMap = new HashMap<>();
 ```
 
 ##### code snippet:
@@ -196,3 +196,31 @@ Hashmap has many methods that can be used. The ones that I have used are:
 You can use any data type in <key, value> but remember that you need to use **data-type classes** and **not** the ~~primitive data types~~.
 ###### Note: Please check the package for the code.
 ---
+### ⚪ 5. Fruits into Basket:
+<img src = "https://ih1.redbubble.net/image.2192549060.9527/st,small,507x507-pad,600x600,f8f8f8.jpg" width = "100" height = "100"/>
+
+❓ Problem Statement:
+>Given an array of characters where each character represents a fruit tree, you are given two baskets and your goal is to put maximum number of fruits in each basket. The only restriction is that each basket can have only one type of fruit.
+
+You can start with any tree, but once you have started you can’t skip a tree. You will pick one fruit from each tree until you cannot, i.e., you will stop when you have to pick from a third fruit type.
+
+Write a function to return the maximum number of fruits in both the baskets.
+
+🗃️ Example 1:
+>Input: Fruit=['A', 'B', 'C', 'A', 'C']
+Output: 3
+Explanation: We can put 2 'C' in one basket and one 'A' in the other from the subarray ['C', 'A', 'C']
+
+🗃️ Example 2:
+>Input: Fruit=['A', 'B', 'C', 'B', 'B', 'C']
+Output: 5
+Explanation: We can put 3 'B' in one basket and two 'C' in the other basket.
+This can be done if we start with the second letter: ['B', 'C', 'B', 'B', 'C']
+
+This question is pretty much similar to the longest sub-array. You can look into the code for further explanation.
+
+###### Note: Please check the package for the code.
+---
+
+
+
