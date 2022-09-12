@@ -1,35 +1,35 @@
-# Algorithms using *Java* ☕ 
+# Algorithms using *Java* ☕
 ### Welcome to my Algorithms repo!🎍
-<img src = "https://i.pinimg.com/originals/cb/67/e9/cb67e94f7dc44ac7ea0c333a8e44fc1f.gif" width = "200" height = "100" />
+<img src = "https://i.pinimg.com/originals/cb/67/e9/cb67e94f7dc44ac7ea0c333a8e44fc1f.gif" width = "300"  />
 
 #### 𝓘𝓷𝓽𝓻𝓸𝓭𝓾𝓬𝓽𝓲𝓸𝓷:📔
 I found a new intrest in learning algorithms and wanted to practice them and thought why not share them too! 🌘
 Feel free to clone or reach out to me if you have any questions!✍🏼
 
 #### Detailed list of Algorithms:📚
-1. Sorting Algorithms:
-    * Merge Sort
-    * Quick Sort
-2. Searching Algorithms:
-3. Pattern Algorithms:
-    * Sliding window
-    * Two pointers
+1. Sorting Algorithms: 🧮
+   * Merge Sort
+   * Quick Sort
+2. Searching Algorithms: 🔍
+3. Pattern Algorithms: 🧬
+   * Sliding window
+   * Two pointers
 
 ---
 
 #### Here is a list of Algorithms and the package names that are there in this repo📓:
-A. Sliding window🪟: 
+##### A. Sliding window ➡️:
 
-| Problems                  | Packages  |
+| Problems ❓                | Packages 🏮  |
 |---------------------------|:---:|
 | 1. Contiguous Sub-array   | contiguousSubArray |
 | 2. Maximum sum Sub-array  | maxSumSubarray |
 | 3. Smallest sum Sub-array | smallestSubarray  |
 
 ---
-## A. Sliding window 🪟:
+## A. Sliding window ➡️:
 
-### 1. Contiguous Subarray:
+### ⚪ 1. Contiguous Subarray:
 In many problems dealing with an array (or a LinkedList), we are asked to find or calculate something among all the contiguous subarrays (or sublists) of a given size. For example, take a look at this problem:
 
 > Given an array, find the average of all contiguous subarrays of size ‘K’ in it.
@@ -46,31 +46,31 @@ the output for the above example would be:
 
 ##### a. Using brute-force method:
 This is the method where we calculate the average for each and every element one by one, therefore making the time complexity O(N*K) where N is the number of elements in the given array.
-###### Note: Check the package for the code. 
+###### Note: Check the package for the code.
 
 ##### b. Using sliding-window method:
 The efficient way to solve this problem would be to visualize each contiguous subarray as a sliding window of ‘5’ elements. This means that when we move on to the next subarray, we will slide the window by one element. So, to reuse the sum from the previous subarray, we will subtract the element going out of the window and add the element now being included in the sliding window. This will save us from going through the whole subarray to find the sum and, as a result, the algorithm complexity will reduce to O(N).
 
 Here's a visual representation:
 
-<img src = "https://miro.medium.com/max/567/1*0BP5ffOsjx4CnzAy-q788A.png"/>
+<img src = "https://miro.medium.com/max/872/0*o-PhzdP_jd_5L2iq.jpg" width = "500" breadth = "500"/>
 
 ###### Note: Check the package for the code.
 
 ---
-### 2. Maximum sum Sub-array:
+### ⚪ 2. Maximum sum Sub-array:
 
-Problem Statement:
+❓ Problem Statement:
 > Given an array of positive numbers and a positive number ‘k’, find the maximum sum of any contiguous subarray of size ‘k’.
 
 Here are a few examples:
 
-Example 1:
+🗃️ Example 1:
 >Input: [2, 1, 5, 1, 3, 2], k=3
 Output: 9
 Explanation: Subarray with maximum sum is [5, 1, 3].
 
-Example 2:
+🗃️ Example 2:
 >Input: [2, 3, 4, 1, 5], k=2
 Output: 7
 Explanation: Subarray with maximum sum is [3, 4].
@@ -82,17 +82,17 @@ This problem can be solved using 2 methods.
 I've solved it using both of the approaches.
 
 #### a. Using brute-force method:
-The time complexity of the above algorithm will be O(N∗K), 
+The time complexity of the above algorithm will be O(N∗K),
 where ‘N’ is the total number of elements in the given array.
 
 We take each element in groups of 'K' and calculate the sum.
 We then store the max value that is found with the max size being 'K'.
 
 #### b. Using sliding-window method:
-If you observe closely, you will realize that to calculate the sum of a contiguous 
-sub-array we can utilize the sum of the previous sub-array. 
-For this, consider each sub-array as a Sliding Window of size ‘k’. 
-To calculate the sum of the next sub-array, 
+If you observe closely, you will realize that to calculate the sum of a contiguous
+sub-array we can utilize the sum of the previous sub-array.
+For this, consider each sub-array as a Sliding Window of size ‘k’.
+To calculate the sum of the next sub-array,
 we need to slide the window ahead by one element.
 
 The time complexity is reduced to O(N).
@@ -100,11 +100,11 @@ The time complexity is reduced to O(N).
 ###### Note: Please check the package for the code.
 
 ---
-### 3. Smallest Sum Sub-array:
+### ⚪ 3. Smallest Sum Sub-array:
 
-Problem Statement:
+❓ Problem Statement:
 >Given an array of positive numbers and a positive number ‘S’,
-> find the length of the smallest contiguous sub-array 
+> find the length of the smallest contiguous sub-array
 > whose sum is greater than or equal to ‘S’.
 > Return 0, if no such sub-array exists.
 
@@ -122,12 +122,16 @@ are pretty straight forward. I will explain special cases or if they are
 tough.
 
 #### b. Sliding-window method:
-It's the same as the one before but this time it's just a tad bit 
+It's the same as the one before but this time it's just a tad bit
 different.
 
 Since we are not given a size for the window, the size will keep changing.
-We start off with a windowEnd = 0 and then keep increasing the window size 
+We start off with a windowEnd = 0 and then keep increasing the window size
 by adding elements one by one.
+
+Here is a visual representation:
+
+<img src = "https://res.cloudinary.com/practicaldev/image/fetch/s--wLHE9zdk--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/083uadwx1ldawxgsexpo.gif" width = "500" breadth = "500"/>
 
 When the sum gets greater than 'S', we start reducing the window size
 by removing the leftmost element by using this code:
@@ -143,6 +147,106 @@ while (sum >= s){
 
 ###### Note: Please check the package for the code.
 
+---
+### ⚪ 4. Longest Substring with K Distinct Characters:
+
+❓ Problem Statement:
+>Given a string, find the length of the longest substring in it with no more than K distinct characters.
+
+🗃️ Example 1:
+>Input: String="araaci", K=2
+Output: 4
+Explanation: The longest substring with no more than '2' distinct characters is "araa".
+
+🗃️ Example 2:
+>Input: String="araaci", K=1
+Output: 2
+Explanation: The longest substring with no more than '1' distinct characters is "aa".
+
+🗃️ Example 3:
+>Input: String="cbbebi", K=3
+Output: 5
+Explanation: The longest substrings with no more than '3' distinct characters are "cbbeb" & "bbebi".
+
+In this question, we make use of a Hashmap. We traverse each character and add it to the hashmap to keep a count of it's frequency. The solution is pretty straight forward.. I've included comments to make you better understand the working of the code, so have a look at the code.
+
+##### For those who aren't familiar with hashmaps:
+
+Java HashMap class implements the Map interface which allows us to store key and value pair, where keys should be unique. If you try to insert the duplicate key, it will replace the element of the corresponding key. It is easy to perform operations using the key index like updation, deletion, etc. HashMap class is found in the java.util package.
+
+Syntax:
+
+```java
+HashMap<Integer, Integer> myMap = new HashMap<>();
+```
+
+##### code snippet:
+
+<img src = "https://appdividend.com/wp-content/uploads/2019/05/Getting-Started-With-Java-HashMap-Tutorial.png" width = "600" />
+
+Hashmap has many methods that can be used. The ones that I have used are:
+
+| Method | Working |
+| ------- | ------- |
+| .put(Object key, Object value) | It is used to insert an entry in the map. |
+| .get(Object key) | This method returns the object that contains the value associated with the key. |
+| .getOrDefault(Object key, defaultValue) | It returns the value to which the specified key is mapped, or defaultValue if the map contains no mapping for the key.  |
+
+
+You can use any data type in <key, value> but remember that you need to use **data-type classes** and **not** the ~~primitive data types~~.
+###### Note: Please check the package for the code.
+---
+### ⚪ 5. Fruits into Basket:
+<img src = "https://ih1.redbubble.net/image.2192549060.9527/st,small,507x507-pad,600x600,f8f8f8.jpg" width = "100" height = "100"/>
+
+❓ Problem Statement:
+>Given an array of characters where each character represents a fruit tree, you are given two baskets and your goal is to put maximum number of fruits in each basket. The only restriction is that each basket can have only one type of fruit.
+
+You can start with any tree, but once you have started you can’t skip a tree. You will pick one fruit from each tree until you cannot, i.e., you will stop when you have to pick from a third fruit type.
+
+Write a function to return the maximum number of fruits in both the baskets.
+
+🗃️ Example 1:
+>Input: Fruit=['A', 'B', 'C', 'A', 'C']
+Output: 3
+Explanation: We can put 2 'C' in one basket and one 'A' in the other from the subarray ['C', 'A', 'C']
+
+🗃️ Example 2:
+>Input: Fruit=['A', 'B', 'C', 'B', 'B', 'C']
+Output: 5
+Explanation: We can put 3 'B' in one basket and two 'C' in the other basket.
+This can be done if we start with the second letter: ['B', 'C', 'B', 'B', 'C']
+
+This question is pretty much similar to the longest sub-array. You can look into the code for further explanation.
+
+<img src = "https://miro.medium.com/max/700/0*AFnoy0Jqh6KBCDTS.png" width = "300" height = "110" />
+
+<img src = "https://miro.medium.com/max/637/0*iyXlKa3k5G9G7Pgr.png" width = "300" height = "110"/>
+
+<img src = "https://miro.medium.com/max/667/0*NRk7dfZjRtjvUykm.png" width = "300" height = "110"/>
+
+<img src = "https://miro.medium.com/max/667/0*Ql2VkE2MdPekXZGv.png" width = "300" height = "110"/>
+
+<img src = "https://miro.medium.com/max/667/0*dQiDxBxe3cm6aDri.png" width = "300" height = "110"/>
+
+<img src = "https://miro.medium.com/max/700/0*n1XDxzbfi7dDryBa.png" width = "300" height = "110"/>
+
+<img src = "https://miro.medium.com/max/700/0*dWfvnBMqKLyYHC4w.png" width = "300" height = "110"/>
+
+<img src = "https://miro.medium.com/max/700/0*Wj0G4JvgXtWz-lxo.png" width = "300" height = "110"/>
+
+<img src = "https://miro.medium.com/max/667/0*QxFRzSxBxIyGcNQC.png" width = "300" height = "110"/>
+
+<img src = "https://miro.medium.com/max/667/0*I17WM_ACZVPJjOwG.png" width = "300" height = "110"/>
+
+<img src = "https://miro.medium.com/max/667/0*5Kp1idMBzy9TQF9u.png" width = "300" height = "110"/>
+
+<img src = "https://miro.medium.com/max/667/0*gCo3C5RB27waNwn7.png" width = "300" height = "110"/>
+
+<img src = "https://miro.medium.com/max/700/0*bdpHLO3mecwFhAWX.png" width = "300" height = "110"/>
+
+
+###### Note: Please check the package for the code.
 ---
 
 

@@ -32,16 +32,16 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Programming/Java Programs/Algorithms&quot;
+    &quot;last_opened_file_path&quot;: &quot;E:/Java programs/Algorithms&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Practice">
-    <configuration name="MaxSumSubarray_BruteForce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingWindow.maxSumSubarray.MaxSumSubarray_BruteForce" />
+  <component name="RunManager" selected="Application.slidingWindow.noRepeatSubString.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="slidingWindow.fruitsIntoBasket.Main" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="slidingWindow.maxSumSubarray.*" />
+          <option name="PATTERN" value="slidingWindow.fruitsIntoBasket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -62,12 +62,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SmallestSubArray_BruteForce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingWindow.smallestSubArray.SmallestSubArray_BruteForce" />
+    <configuration name="slidingWindow.longestSubstringMaxDistinct.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="slidingWindow.longestSubstringMaxDistinct.Main" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="slidingWindow.smallestSubArray.*" />
+          <option name="PATTERN" value="slidingWindow.longestSubstringMaxDistinct.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="practice.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice.Main" />
+    <configuration name="slidingWindow.longestSubstringMaxDistinct.Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="slidingWindow.longestSubstringMaxDistinct.Practice" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="slidingWindow.contiguousSubArray.*" />
+          <option name="PATTERN" value="slidingWindow.longestSubstringMaxDistinct.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="slidingWindow.maxSumSubarray.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingWindow.maxSumSubarray.Main" />
+    <configuration name="slidingWindow.noRepeatSubString.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="slidingWindow.noRepeatSubString.Main" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="slidingWindow.maxSumSubarray.*" />
+          <option name="PATTERN" value="slidingWindow.noRepeatSubString.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,11 +103,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.slidingWindow.noRepeatSubString.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.slidingWindow.longestSubstringMaxDistinct.Main" />
+        <item itemvalue="Application.slidingWindow.longestSubstringMaxDistinct.Practice" />
         <item itemvalue="Application.Practice" />
-        <item itemvalue="Application.SmallestSubArray_BruteForce" />
-        <item itemvalue="Application.slidingWindow.maxSumSubarray.Main" />
-        <item itemvalue="Application.MaxSumSubarray_BruteForce" />
-        <item itemvalue="Application.practice.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -132,5 +132,15 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
