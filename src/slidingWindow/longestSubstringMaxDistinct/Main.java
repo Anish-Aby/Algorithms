@@ -20,7 +20,7 @@ public class Main {
         HashMap<Character, Integer> myMap = new HashMap<>();
 
         for (windowEnd = 0; windowEnd < string.length(); windowEnd++){
-            
+
         }
     }
 }
