@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="de008ec2-7ff6-4f71-a77f-65df2f34281b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/slidingWindow/longestSubstringMaxDistinct/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/slidingWindow/longestSubstringMaxDistinct/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/slidingWindow/noRepeatSubString/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/slidingWindow/noRepeatSubString/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/slidingWindow/problemChallenge1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/slidingWindow/problemChallenge1/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +38,7 @@
     &quot;last_opened_file_path&quot;: &quot;E:/Java programs/Algorithms&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.slidingWindow.problemChallenge1.Main">
+  <component name="RunManager" selected="Application.slidingWindow.stringAnagrams.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="slidingWindow.fruitsIntoBasket.Main" />
       <module name="Algorithms" />
@@ -59,19 +58,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="slidingWindow.problemChallenge1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="slidingWindow.longestSubstringMaxDistinct.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingWindow.longestSubstringMaxDistinct.Main" />
-      <module name="Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="slidingWindow.longestSubstringMaxDistinct.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,13 +91,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="slidingWindow.stringAnagrams.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="slidingWindow.stringAnagrams.Main" />
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="slidingWindow.stringAnagrams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.slidingWindow.stringAnagrams.Main" />
         <item itemvalue="Application.slidingWindow.problemChallenge1.Main" />
         <item itemvalue="Application.bruteForceMethod" />
         <item itemvalue="Application.slidingWindow.noRepeatSubString.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.slidingWindow.longestSubstringMaxDistinct.Main" />
       </list>
     </recent_temporary>
   </component>

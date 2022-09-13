@@ -29,7 +29,7 @@ import java.util.HashMap;
 
 public class Main {
     public static void main(String[] args) {
-        String str = "oidbcaf", pattern = "abc";
+        String str = "aaacb", pattern = "abc";
         int windowEnd, windowStart = 0, matched = 0;
         HashMap<Character, Integer> patternMap = new HashMap<>();
 
