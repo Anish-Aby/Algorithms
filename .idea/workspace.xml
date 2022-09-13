@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de008ec2-7ff6-4f71-a77f-65df2f34281b" name="Changes" comment="" />
+    <list default="true" id="de008ec2-7ff6-4f71-a77f-65df2f34281b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/slidingWindow/longestSubstringMaxDistinct/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/slidingWindow/longestSubstringMaxDistinct/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/slidingWindow/noRepeatSubString/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/slidingWindow/noRepeatSubString/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +39,7 @@
     &quot;last_opened_file_path&quot;: &quot;E:/Java programs/Algorithms&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.slidingWindow.noRepeatSubString.Main">
+  <component name="RunManager" selected="Application.slidingWindow.problemChallenge1.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="slidingWindow.fruitsIntoBasket.Main" />
       <module name="Algorithms" />
@@ -49,12 +53,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingWindow.smallestSubArray.Practice" />
+    <configuration name="bruteForceMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="slidingWindow.problemChallenge1.bruteForceMethod" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="slidingWindow.smallestSubArray.*" />
+          <option name="PATTERN" value="slidingWindow.problemChallenge1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,19 +68,6 @@
     </configuration>
     <configuration name="slidingWindow.longestSubstringMaxDistinct.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="slidingWindow.longestSubstringMaxDistinct.Main" />
-      <module name="Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="slidingWindow.longestSubstringMaxDistinct.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="slidingWindow.longestSubstringMaxDistinct.Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingWindow.longestSubstringMaxDistinct.Practice" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
@@ -101,13 +92,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="slidingWindow.problemChallenge1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="slidingWindow.problemChallenge1.Main" />
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="slidingWindow.problemChallenge1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.slidingWindow.problemChallenge1.Main" />
+        <item itemvalue="Application.bruteForceMethod" />
         <item itemvalue="Application.slidingWindow.noRepeatSubString.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.slidingWindow.longestSubstringMaxDistinct.Main" />
-        <item itemvalue="Application.slidingWindow.longestSubstringMaxDistinct.Practice" />
-        <item itemvalue="Application.Practice" />
       </list>
     </recent_temporary>
   </component>

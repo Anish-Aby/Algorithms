@@ -29,7 +29,7 @@ public class Main {
         int k = 2, windowStart = 0, windowEnd, maxSize = 0;
         /* making a hashmap to keep track of the frequency of the characters. */
         HashMap<Character, Integer> myMap = new HashMap<>();
-        
+
         for (windowEnd = 0; windowEnd < str.length(); windowEnd++){
             char rightChar = str.charAt(windowEnd);
             myMap.put(rightChar, myMap.getOrDefault(rightChar, 0) + 1); // adding the character to the hashmap.

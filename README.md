@@ -40,6 +40,9 @@ the output for the above example would be:
 
 > Output: [2.2, 2.8, 2.4, 3.6, 2.8]
 
+
+✅ Solution:
+
 ##### There are two ways to solve this problem:
 * Using brute-force method,
 * Using sliding window method.
@@ -75,6 +78,8 @@ Explanation: Subarray with maximum sum is [5, 1, 3].
 Output: 7
 Explanation: Subarray with maximum sum is [3, 4].
 
+✅ Solution:
+
 This problem can be solved using 2 methods.
 * Brute-force method,
 * window-sliding method.
@@ -107,6 +112,8 @@ The time complexity is reduced to O(N).
 > find the length of the smallest contiguous sub-array
 > whose sum is greater than or equal to ‘S’.
 > Return 0, if no such sub-array exists.
+
+✅ Solution:
 
 Note that I have not taken care of the "Return 0, if no such subarray exists."
 because it's easy and I assume everyone is able to do it at this point.
@@ -168,6 +175,8 @@ Explanation: The longest substring with no more than '1' distinct characters is 
 Output: 5
 Explanation: The longest substrings with no more than '3' distinct characters are "cbbeb" & "bbebi".
 
+✅ Solution:
+
 In this question, we make use of a Hashmap. We traverse each character and add it to the hashmap to keep a count of it's frequency. The solution is pretty straight forward.. I've included comments to make you better understand the working of the code, so have a look at the code.
 
 ##### For those who aren't familiar with hashmaps:
@@ -217,6 +226,8 @@ Output: 5
 Explanation: We can put 3 'B' in one basket and two 'C' in the other basket.
 This can be done if we start with the second letter: ['B', 'C', 'B', 'B', 'C']
 
+✅ Solution:
+
 This question is pretty much similar to the longest sub-array. You can look into the code for further explanation.
 
 <img src = "https://miro.medium.com/max/700/0*AFnoy0Jqh6KBCDTS.png" width = "300" height = "110" />
@@ -248,6 +259,91 @@ This question is pretty much similar to the longest sub-array. You can look into
 
 ###### Note: Please check the package for the code.
 ---
+### ⚪ 6. No-Repeat Sub-string:
+❓ Problem Statement:
+>Given a string, find the length of the longest substring which has no repeating characters.
 
+🗃️ Example 1:
+>Input: String="aabccbb"
+Output: 3
+Explanation: The longest substring without any repeating characters is "abc".
+
+🗃️ Example 2:
+>
+Input: String="abbbb"
+Output: 2
+Explanation: The longest substring without any repeating characters is "ab".
+
+🗃️ Example 3:
+>Input: String="abccde"
+Output: 3
+Explanation: Longest substrings without any repeating characters are "abc" & "cde".
+
+✅ Solution:
+
+In this solution, we use the sliding-window approach. We use a hash-map to keep track of the highest index of the repeating character which will act as the starting point for the window.
+
+At the same time, we will keep track of the longest length we have observed without any repetition of characters.
+
+###### Note: Please check the package for the code.
+---
+### ⚪ 7. Permutation in a String 🏆:
+This is a challenge question 🏆
+
+Level🎴 : Hard 🥇
+
+I would highly encourage you to try this program out by yourself. If you haven't been doing so already, I would recommend actually trying to solve all the problems on your own before looking at the code thats provided. It'll definetly help you get better!
+
+❓ Problem Statement:
+>Given a string and a pattern, find out if the string contains any permutation of the pattern.
+
+❗Permutaion definition:
+>Permutation is defined as the re-arranging of the characters of the string. For example, “abc” has the following six permutations:
+>* abc
+>* acb
+>* bac
+>* bca
+>* cab
+>* cba
+
+🗃️ Example 1:
+>Input: String="oidbcaf", Pattern="abc"
+Output: true
+Explanation: The string contains "bca" which is a permutation of the given pattern.
+
+
+🗃️ Example 2:
+>
+Input: String="odicf", Pattern="dc"
+Output: false
+Explanation: No permutation of the pattern is present in the given string as a substring.
+
+###### Note: Check the doc in the code for more examples.
+
+✅ Solution:
+The solution is pretty simple in our case.
+We can solve this problem using two methods:
+* 💥 Brute-force Method,
+* 🪟 Sliding-window Method.
+
+#### a. 💥 Brute-force Method:
+In this method, we use two hash-maps to store the pattern and the part of a string.
+We then compare both the hashmaps and return true if they match.
+
+This method is not really recommended because of the time-complexity issue and we end up using 2 hash-maps.
+
+#### b. 🪟 Sliding-window Method:
+In this method, we store the charcters and their frequencies of the pattern in pattenrMap (hash-map).
+
+We then traverse the string character by charcter and check if it is present in the hash-map.
+
+If it is present, we reduce the frequency till it becomes 0, and we increment the matched variable.
+
+If we end up not matching, then we decrease the window size and if the element being removed was part of the map, we add it back to the map by incrementing its frequency.
+
+Further understanding can be done by checking the code.
+
+###### Note: Please check the package for the code.
+---
 
 

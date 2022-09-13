@@ -25,9 +25,8 @@ import java.util.HashMap;
 
 public class Main {
     public static void main(String[] args) {
-        String str = "abccde";
+        String str = "aabccbb";
         int windowStart = 0, windowEnd, maxLength = 0;
-        int size = 1;
         HashMap<Character, Integer> myMap = new HashMap<>();
 
         for(windowEnd = 0; windowEnd < str.length(); windowEnd++){
@@ -40,7 +39,6 @@ public class Main {
             myMap.put(rightChar, windowEnd);
             maxLength = Math.max(maxLength, windowEnd - windowStart + 1);
         }
-        System.out.println(maxLength); 
-
+        System.out.println(maxLength);
     }
 }
