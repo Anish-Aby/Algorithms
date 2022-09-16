@@ -24,7 +24,12 @@ Feel free to clone or reach out to me if you have any questions!✍🏼
 |---------------------------|:---:|
 | 1. Contiguous Sub-array   | contiguousSubArray |
 | 2. Maximum sum Sub-array  | maxSumSubarray |
-| 3. Smallest sum Sub-array | smallestSubarray  |
+| 3. Smallest sum Sub-array | smallestSubarray |
+| 4. Longest Substring with K Distinct Characters |  |
+|  5. Fruits into Basket|  |
+| 6. No-Repeat Sub-string |  |
+| 7. Permutation in a String 🏆 |  |
+| 8. 7. Anagram of a String 🏆|  |
 
 ---
 ## A. Sliding window ➡️:
@@ -204,6 +209,7 @@ Hashmap has many methods that can be used. The ones that I have used are:
 
 You can use any data type in <key, value> but remember that you need to use **data-type classes** and **not** the ~~primitive data types~~.
 ###### Note: Please check the package for the code.
+
 ---
 ### ⚪ 5. Fruits into Basket:
 <img src = "https://ih1.redbubble.net/image.2192549060.9527/st,small,507x507-pad,600x600,f8f8f8.jpg" width = "100" height = "100"/>
@@ -258,6 +264,7 @@ This question is pretty much similar to the longest sub-array. You can look into
 
 
 ###### Note: Please check the package for the code.
+
 ---
 ### ⚪ 6. No-Repeat Sub-string:
 ❓ Problem Statement:
@@ -286,6 +293,7 @@ In this solution, we use the sliding-window approach. We use a hash-map to keep 
 At the same time, we will keep track of the longest length we have observed without any repetition of characters.
 
 ###### Note: Please check the package for the code.
+
 ---
 ### ⚪ 7. Permutation in a String 🏆:
 This is a challenge question 🏆
@@ -344,6 +352,41 @@ If we end up not matching, then we decrease the window size and if the element b
 Further understanding can be done by checking the code.
 
 ###### Note: Please check the package for the code.
+
 ---
+### ⚪ 7. Anagram of a String 🏆:
+This is a challenge question 🏆
 
+Level🎴 : Hard 🥇
 
+❓ Problem Statement:
+>Given a string and a pattern, find all anagrams of the pattern in the given string.
+
+❗Anagram definition:
+>Anagram is actually a Permutation of a string. For example, “abc” has the following six anagrams:
+>* abc
+>* acb
+>* bac
+>* bca
+>* cab
+>* cba
+
+🗃️ Example 1:
+>Input: String="ppqp", Pattern="pq"
+Output: [1, 2]
+Explanation: The two anagrams of the pattern in the given string are "pq" and "qp".
+
+🗃️ Example 2:
+>Input: String="abbcabc", Pattern="abc"
+Output: [2, 3, 4]
+Explanation: The three anagrams of the pattern in the given string are "bca", "cab", and "abc".
+
+✅ Solution:
+
+The solution is the same as the previous challenge. The only difference is the output where you display the starting index of the anagram.
+
+Try to solve this challenge out by yourself and then refer to the code pacakge if you get stuck.
+
+###### Note: Please check the package for the code.
+
+---
