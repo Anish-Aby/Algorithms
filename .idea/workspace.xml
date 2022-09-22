@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="de008ec2-7ff6-4f71-a77f-65df2f34281b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/slidingWindow/problemChallenge3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/slidingWindow/problemChallenge3/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,13 +37,13 @@
     &quot;last_opened_file_path&quot;: &quot;E:/Java programs/Algorithms&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Solution">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingWindow.problemChallenge4.Main" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="BetterSolution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="twoPointer.pairWithTargetSum.BetterSolution" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="slidingWindow.problemChallenge4.*" />
+          <option name="PATTERN" value="twoPointer.pairWithTargetSum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -52,9 +51,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="twoPointer.removeDuplicates.Main" />
       <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="twoPointer.removeDuplicates.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -66,12 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="slidingWindow.problemChallenge3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingWindow.problemChallenge3.Main" />
+    <configuration name="UsingHashMaps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="twoPointer.removeDuplicates.UsingHashMaps" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="slidingWindow.problemChallenge3.*" />
+          <option name="PATTERN" value="twoPointer.removeDuplicates.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="twoPointers.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="twoPointers.Main" />
+    <configuration name="twoPointer.pairWithTargetSum.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="twoPointer.pairWithTargetSum.Main" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="twoPointers.*" />
+          <option name="PATTERN" value="twoPointer.pairWithTargetSum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,11 +99,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.Practice" />
-        <item itemvalue="Application.twoPointers.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.slidingWindow.problemChallenge3.Main" />
+        <item itemvalue="Application.UsingHashMaps" />
+        <item itemvalue="Application.BetterSolution" />
+        <item itemvalue="Application.twoPointer.pairWithTargetSum.Main" />
+        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
