@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="de008ec2-7ff6-4f71-a77f-65df2f34281b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/slidingWindow/problemChallenge3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/slidingWindow/problemChallenge3/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,13 +38,13 @@
     &quot;last_opened_file_path&quot;: &quot;E:/Java programs/Algorithms&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.slidingWindow.problemChallenge3.Main">
-    <configuration name="bruteForceMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingWindow.problemChallenge1.bruteForceMethod" />
+  <component name="RunManager" selected="Application.Solution">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="slidingWindow.problemChallenge4.Main" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="slidingWindow.problemChallenge1.*" />
+          <option name="PATTERN" value="slidingWindow.problemChallenge4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -52,41 +52,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="slidingWindow.noRepeatSubString.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingWindow.noRepeatSubString.Main" />
+    <configuration name="Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice" />
       <module name="Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="slidingWindow.noRepeatSubString.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="slidingWindow.problemChallenge1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingWindow.problemChallenge1.Main" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution" />
       <module name="Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="slidingWindow.problemChallenge1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="slidingWindow.problemChallenge2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingWindow.problemChallenge2.Main" />
-      <module name="Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="slidingWindow.problemChallenge2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -104,13 +79,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="twoPointers.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="twoPointers.Main" />
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="twoPointers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.Practice" />
+        <item itemvalue="Application.twoPointers.Main" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.slidingWindow.problemChallenge3.Main" />
-        <item itemvalue="Application.slidingWindow.problemChallenge2.Main" />
-        <item itemvalue="Application.slidingWindow.problemChallenge1.Main" />
-        <item itemvalue="Application.bruteForceMethod" />
-        <item itemvalue="Application.slidingWindow.noRepeatSubString.Main" />
       </list>
     </recent_temporary>
   </component>
